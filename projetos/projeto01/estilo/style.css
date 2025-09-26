@@ -1,0 +1,146 @@
+/* Estilo do projeto */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(49, 47, 47); /*cor do fundo*/
+	color:#22c522; /* cor da fonte */
+	font-family: helvetica; /* estilo da fonte*/
+}
+
+header{
+	background-color: rgb(75, 33, 75);
+	padding: 20px; /* espaçamento interno do elemento*/
+}
+
+main{
+	max-width: 1200px; /* largura máxima do projeto */
+	margin:0px auto;
+}
+
+#banner{
+	background-color: rgb(126, 58, 126); /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	
+}
+
+.img_banner{
+	width: 400px;
+	margin: 0 auto;
+	display: block; /* nesse caso o display é necessário para o margin funcionar */
+
+}
+
+#servicos{
+	background-color: rgb(126, 58, 126); /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#servicos ul{
+	padding-left: 20px;
+}
+
+#servicos ul li{
+	padding-top: 5px;
+}
+
+#funcionamento{
+	background-color: rgb(126, 58, 126); /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+footer{
+	background-color: rgb(75, 33, 75);
+	padding: 10px;
+	text-align: center; /* alinha o texto ao centro */
+}
+
+nav {
+	background-color: rgb(126, 58, 126);
+	padding: 20px;
+
+}
+
+nav ul li {
+	display: inline;
+	padding: 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #1f2917;
+	padding: 5px;
+	color: #22c522
+}
+
+nav ul li a:hover {
+	border: 1px inset rgb(100, 100, 100);
+	border-radius: 8px;
+	box-shadow: 6px 6px 6px 2px rgb(31, 29, 29);
+	transition: 0.5s;
+	background-color: #8caaaa; /*cor do fundo*/
+}
+
+/* Estilo para menu */	
+
+/* Estilo para formulário */
+
+#contato{
+	background-color: rgb(126, 58, 126); /* cor de fundo*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+
+fieldset {
+	border: 2px solid #b9d9d9;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+input{
+	margin: 10px 0px;
+}
+
+header{
+	text-align: center;
+	
+}
+
+.text{
+	padding: 10px;
+	border: 1px solid #b9d9d9;
+	width: 60px;
+}
+
+.check{
+	margin-right: 10px;
+	border: 1px solid #b9d9d9
+}
+
+.button{
+	background-color: #b9d9d9;
+	color: rgb(49, 47, 47);
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.button:hover{
+	background-color:#628383;
+}
+
+#depoimento{
+	margin: 15px;
+}
